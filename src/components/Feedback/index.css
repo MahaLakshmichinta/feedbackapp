@@ -1,0 +1,45 @@
+/* Write your CSS code here. */
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 12px;
+  max-width: 606px;
+  min-height: 500px;
+  padding: 24px;
+}
+.feed-back-love {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-emoji {
+  height: 100px;
+  width: 200px;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.description {
+  color: #1e293b;
+  text-align: center;
+}
+.list_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image {
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+}
